@@ -7,8 +7,10 @@ Il s'agirait de faire une mini application web avec le framework CakePhp 2 pour 
 - Pouvoir leur ajouter des notes (ajouter uniquement), une "note" étant : matière (champ texte, ex : Français, Math) + un chiffre compris entre 0 et 20.
 
 
+-- --------------------------------------------------------
 Route : localhost/cakephp/etudiants/
 
+-- --------------------------------------------------------
 
 DATABASE :
 
@@ -64,10 +66,12 @@ Améliorer les routes.
 
 
 ------------------------------------------------------------
-�Répertoires de travail :
+Répertoires de travail :
 Model
 -Note.php
 -Etudiant.php
+
+
 View
 -Etudiants
 --add_note.ctp
@@ -76,5 +80,6 @@ View
 --add_student.ctp
 --index.ctp
 --notes_etudiant.ctp
+
 Controller
 -EtudiantsController.php
