@@ -67,12 +67,16 @@ Améliorer les routes.
 
 ------------------------------------------------------------
 Répertoires de travail :
+
+
 Model
+
 -Note.php
 -Etudiant.php
 
 
 View
+
 -Etudiants
 --add_note.ctp
 --edit_note.ctp
@@ -82,4 +86,5 @@ View
 --notes_etudiant.ctp
 
 Controller
+
 -EtudiantsController.php
